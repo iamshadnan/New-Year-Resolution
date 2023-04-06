@@ -1,3 +1,172 @@
 * {
-    background-color: red;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+main {
+    margin-left: 320px;
+    margin-right: 320px;
+}
+section {
+    margin-top: 130px;
+}
+.button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+}
+.button a {
+    text-decoration: none;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+}
+.heading {
+    font-size: 40px;
+    font-weight: 700;
+}
+p {
+    font-size: 18px;
+}
+/* hero banner styles */
+.hero-banner {
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 900px;
+}
+.hero-banner-contents {
+    display: inline-block;
+    position: absolute;
+    left: 1065px;
+    top: 250px;
+}
+.hero-banner-title {
+    color: white;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+}
+.hero-banner-description {
+    color: white;
+    text-align: right;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.hero-banner-button {
+    position: absolute;
+    left: 360px;
+}
+/* previous year info styles */
+.previous-year-info {
+    display: flex;
+}
+.previous-year-info-contents {
+    margin-top: 160px;
+    margin-left: 120px;
+}
+.previous-year-info-contents-paragraph {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.previous-year-info-contents-icon-list {
+    line-height: 40px;
+}
+.check-icon {
+    color: #005FAC;
+    font-weight: bold;
+}
+/* my plans styles */
+.my-plans-heading {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.my-plans {
+    display: flex;
+    justify-content: space-between;
+}
+.my-plans-icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my-plans-icon-box-heading {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.my-plans-icon-box-paragraph {
+    font-size: 25px;
+    color: #737272;
+    text-align: center;
+}
+/* call to action styles */
+.call-to-action {
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 60px;
+    border-radius: 8px;
+}
+.call-to-action-heading {
+    color: white;
+    margin-bottom: 40px;
+}
+/* footer section styles */
+.footer {
+    background: #151414;
+    margin-bottom: -130px;
+}
+.footer-container {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+}
+.footer-info {
+    width: 500px;
+}
+.footer-info-heading {
+    color: white;
+}
+.footer-info-paragraph {
+    color: white;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-info {
+    color: white;
+    line-height: 40px;
+}
+.social-icons {
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+}
+.news-letter-form-heading {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.email-form {
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.subscribe-now-button {
+    background: #005FAC;
+}
+.subscribe-now-button a {
+    color: white;
 }
